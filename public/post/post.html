@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+   <link rel="stylesheet" href="../style.css">
+</head>
+<header>
+    <button onclick="window.location.href='http://127.0.0.1:5500/public/post/post.html'">POST - Adicionar</button>
+    <button onclick="window.location.href='http://127.0.0.1:5500/public/get/get.html'">GET - Listar</button>
+    <button onclick="window.location.href='http://127.0.0.1:5500/public/put/put.html'">PUT - Atualizar</button>
+    <button onclick="window.location.href='http://127.0.0.1:5500/public/delete/delete.html'">DELETE - Excluir</button>
+</header>
+<body>
+    <center>
+    <h1>Adicionar Novo Registro</h1>
+    <form>
+        <label>Nome:</label><br>
+        <input type="text" id="nome"><br>
+        <label>Sobrenome:</label><br>
+        <input type="text" id="sobrenome"><br>
+        <label>Email:</label><br>
+        <input type="email" id="email"><br>
+        <label>Idade:</label><br>
+        <input type="number" id="idade"><br>
+        <label>Telefone:</label><br>
+        <input type="text" id="telefone"><br>
+        <label>Rua:</label><br>
+        <input type="text" id="rua"><br>
+        <label>Bairro:</label><br>
+        <input type="text" id="bairro"><br>
+        <label>Cidade:</label><br>
+        <input type="text" id="cidade"><br>
+        <label>Estado:</label><br>
+        <input type="text" id="estado"><br>
+        <label>RG:</label><br>
+        <input type="text" id="rg"><br><br>
+
+        <button type="button" onclick="adicionarPessoa()">Adicionar</button>
+    </form>
+
+    <script src="post.js"></script>
+</body>
+</html>

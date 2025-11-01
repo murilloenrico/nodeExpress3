@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUT - Atualizar</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <link rel="stylesheet" href=".../style.css">
+<header>
+    <button onclick="window.location.href='http://127.0.0.1:5500/public/post/post.html'">Voltar</button>
+</header>
+    <h1>Atualizar Registro</h1>
+    <label>ID da pessoa:</label>
+    <input type="number" id="idBuscar">
+    <button type="button" onclick="buscarPessoa()">Buscar</button><br><br>
+
+    <form>
+        <label>Nome:</label><br>
+        <input type="text" id="nome"><br>
+        <label>Sobrenome:</label><br>
+        <input type="text" id="sobrenome"><br>
+        <label>Email:</label><br>
+        <input type="email" id="email"><br>
+        <label>Idade:</label><br>
+        <input type="number" id="idade"><br>
+        <label>Telefone:</label><br>
+        <input type="text" id="telefone"><br>
+        <label>Rua:</label><br>
+        <input type="text" id="rua"><br>
+        <label>Bairro:</label><br>
+        <input type="text" id="bairro"><br>
+        <label>Cidade:</label><br>
+        <input type="text" id="cidade"><br>
+        <label>Estado:</label><br>
+        <input type="text" id="estado"><br>
+        <label>RG:</label><br>
+        <input type="text" id="rg"><br><br>
+
+        <button type="button" onclick="atualizarPessoa()">Atualizar</button>
+    </form>
+
+    <script src="put.js"></script>
+</body>
+</html>
